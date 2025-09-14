@@ -1,0 +1,26 @@
+.map-wrap { position: relative; }
+.map-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(15,23,42,0.95);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.4);
+  transform: translate3d(0,0,0);
+  z-index: 9999;
+}
+
+/* Light mode tooltip */
+.light .map-tooltip {
+  background: rgba(255,255,255,0.98);
+  color: #0f172a;
+  box-shadow: 0 6px 22px rgba(2,6,23,0.08);
+}
+
+.map-wrap svg { border-radius: 8px; }
+.map-wrap .rsm-geography { transition: fill 180ms ease; }
+
+/* Dark mode geography strokes */
+:root.dark .map-wrap .rsm-geography { stroke: rgba(148,163,184,0.12); }
