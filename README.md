@@ -24,4 +24,4 @@ Following are the Screenshots of the protect:
 ![alt text](src/images/Camera-Capture.png)
 
 Following is the complete Video tutorial of workflow of Application:
-<video controls src="src/video/Jotish React Assignment.mp4" title="Title"></video>
+[![Watch the video](<src/images/World mapPage.png>)](src/video/Jotish%20React%20Assignment.mp4)
