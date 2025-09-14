@@ -23,5 +23,5 @@ Following are the Screenshots of the protect:
 5. Live Camera Capture Page
 ![alt text](src/images/Camera-Capture.png)
 
-Following is the complete Video tutorial of workflow of Application(video in src/video folder):
+Following is the complete Video tutorial of workflow of Application(please find video in src/video folder):
 [![Watch the video](<src/images/World mapPage.png>)](src/video/Jotish%20React%20Assignment.mp4)
